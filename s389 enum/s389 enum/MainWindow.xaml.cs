@@ -39,6 +39,7 @@ namespace s389_enum
             MessageBox.Show(card.Name);
 
             //eloeessssssssssssss
+            // dupa 
             
         }
 
