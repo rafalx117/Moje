@@ -9,11 +9,8 @@
     <Grid>
         <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="203,71,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
         <ListView x:Name="listView" HorizontalAlignment="Left" Height="151" Margin="74,121,0,0" VerticalAlignment="Top" Width="369">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
+         
         </ListView>
+        <Button x:Name="sort" Content="sort" HorizontalAlignment="Left" Margin="312,71,0,0" VerticalAlignment="Top" Width="75" Click="sort_Click"/>
     </Grid>
 </Window>

@@ -18,5 +18,12 @@ namespace s389_enum
             Color = color;
             Value = value;
         }
+
+        public override string ToString()
+        {
+            return Value + " " + Color;
+        }
     }
+
+    
 }
